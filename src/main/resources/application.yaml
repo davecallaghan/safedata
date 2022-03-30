@@ -1,0 +1,13 @@
+encryption:
+  SecretKey:1234567890123456
+  SecretKeySpec:AES
+  IvParameter:1234567890123456
+  transform:AES/CBC/PKCS5Padding
+substitution:
+  firstNameStart:1920
+  firstNameEnd:2020
+  firstNameIncrement:10
+  firstNameFilePrefix=yob
+  firstNameFileSuffix=.txt
+  firstNameDirectory=/src/main/resources
+  firstNameFieldDelimiter=,
